@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>活動相簿</title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+		<div class="container-fluid">
+			<div class="row justify-content-around">
+				<!-- Button to Open the Modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+					<img src="images/photos01.png"><p><font>旅行</font></p>
+				</button>
+				
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModa2">
+					<img src="images/photos02.png"><p><font>晚宴</font></p>
+				</button>
+				
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModa3">
+					<img src="images/photos03.png"><p><font>淨灘</font></p>
+				</button>
+			</div>
+		</div>
+		
+		<!-- The Modal -->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content">
+
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">旅行</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<div id="demo" class="carousel slide" data-ride="carousel">
+
+							<!-- Indicators -->
+							<ul class="carousel-indicators">
+								<li data-target="#demo" data-slide-to="0" class="active"></li>
+								<li data-target="#demo" data-slide-to="1"></li>
+								<li data-target="#demo" data-slide-to="2"></li>
+							</ul>
+
+							<!-- The slideshow -->
+							<div class="carousel-inner">
+								<div class="carousel-item active"> <img src="images/Activities1/a1_02.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities1/a1_03.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities1/a1_04.jpg" style="width:100%"> </div>
+							</div>
+							  
+							<!-- Left and right controls -->
+							<a class="carousel-control-prev" href="#demo" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a>
+							<a class="carousel-control-next" href="#demo" data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
+						</div>
+					</div>
+					
+					<!-- Modal footer -->
+					<div class="modal-footer"> <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> </div>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="myModa2">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content">
+
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">晚宴</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<div id="demo1" class="carousel slide" data-ride="carousel">
+
+							<!-- Indicators -->
+							<ul class="carousel-indicators">
+								<li data-target="#demo1" data-slide-to="0" class="active"></li>
+								<li data-target="#demo1" data-slide-to="1"></li>
+								<li data-target="#demo1" data-slide-to="2"></li>
+								<li data-target="#demo1" data-slide-to="3"></li>
+							</ul>
+
+							<!-- The slideshow -->
+							<div class="carousel-inner">
+								<div class="carousel-item active"> <img src="images/Activities2/a2_01.jpg" style="width:100%"></div>
+								<div class="carousel-item"> <img src="images/Activities2/a2_02.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities2/a2_03.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities2/a2_04.jpg" style="width:100%"> </div>
+							</div>
+							  
+							<!-- Left and right controls -->
+							<a class="carousel-control-prev" href="#demo1" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a>
+							<a class="carousel-control-next" href="#demo1" data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
+						</div>
+					</div>
+				  
+					<!-- Modal footer -->
+					<div class="modal-footer"> <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> </div>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="modal fade" id="myModa3">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content">
+
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">淨灘</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<div id="demo2" class="carousel slide" data-ride="carousel">
+
+							<!-- Indicators -->
+							<ul class="carousel-indicators">
+								<li data-target="#demo2" data-slide-to="0" class="active"></li>
+								<li data-target="#demo2" data-slide-to="1"></li>
+								<li data-target="#demo2" data-slide-to="2"></li>
+								<li data-target="#demo2" data-slide-to="3"></li>
+								<li data-target="#demo2" data-slide-to="4"></li>
+							</ul>
+
+							<!-- The slideshow -->
+							<div class="carousel-inner">
+								<div class="carousel-item active"> <img src="images/Activities3/a3_01.jpg" style="width:100%"></div>
+								<div class="carousel-item"> <img src="images/Activities3/a3_02.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities3/a3_03.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities3/a3_04.jpg" style="width:100%"> </div>
+								<div class="carousel-item"> <img src="images/Activities3/a3_05.jpg" style="width:100%"> </div>
+							</div>
+							  
+							<!-- Left and right controls -->
+							<a class="carousel-control-prev" href="#demo2" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a>
+							<a class="carousel-control-next" href="#demo2" data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
+						</div>
+					</div>
+				  
+					<!-- Modal footer -->
+					<div class="modal-footer"> <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> </div>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>
